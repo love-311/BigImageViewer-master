@@ -1,6 +1,7 @@
 # BigImageViewer
 
-[ ![Download](https://jitpack.io/#love-311/BigImageViewer-master/v1.1) ](https://jitpack.io/#love-311/BigImageViewer-master/_latestVersion)
+[ ![Download](https://jitpack.io/#love-311/BigImageViewer-master/v1.1) ]
+(https://jitpack.io/#love-311/BigImageViewer-master/_latestVersion)
 
 Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by [Subsampling Scale Image View](https://github.com/davemorrissey/subsampling-scale-image-view), [Fresco](https://github.com/facebook/fresco), [Glide](https://github.com/bumptech/glide), and [Picasso](https://github.com/square/picasso).
 
