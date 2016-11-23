@@ -1,6 +1,6 @@
 # BigImageViewer
 
-[ ![Download](https://api.bintray.com/packages/piasy/maven/BigImageViewer/images/download.svg) ](https://bintray.com/piasy/maven/BigImageViewer/_latestVersion)
+[ ![Download](https://jitpack.io/#love-311/BigImageViewer-master/v1.1) ](https://jitpack.io/#love-311/BigImageViewer-master/_latestVersion)
 
 Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by [Subsampling Scale Image View](https://github.com/davemorrissey/subsampling-scale-image-view), [Fresco](https://github.com/facebook/fresco), [Glide](https://github.com/bumptech/glide), and [Picasso](https://github.com/square/picasso).
 
@@ -17,21 +17,21 @@ Big image viewer supporting pan and zoom, with very little memory usage and full
 ``` gradle
 allprojects {
     repositories {
-        jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 
 // NOTE that the artifact id has been changed!
-compile 'com.github.piasy:BigImageViewer:1.2.0'
+compile 'com.github.love-311.BigImageViewer-master:BigImageViewer:v1.1'
 
 // load with fresco
-compile 'com.github.piasy:FrescoImageLoader:1.2.0'
+compile 'com.github.love-311.BigImageViewer-master:FrescoImageLoader:v1.1'
 
 // load with glide
-compile 'com.github.piasy:GlideImageLoader:1.2.0'
+compile 'com.github.love-311.BigImageViewer-master:GlideImageLoader:v1.1'
 
 // progress pie indicator
-compile 'com.github.piasy:ProgressPieIndicator:1.2.0'
+compile 'com.github.love-311.BigImageViewer-master:ProgressPieIndicator:v1.1'
 ```
 
 ### initialize
