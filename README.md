@@ -1,5 +1,6 @@
 # BigImageViewer
 由于原项目是基于API16以上的，而我的项目需要在API14以上，因此这里我对原作API支持做了相应的修改供个人项目使用。
+
 Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by [Subsampling Scale Image View](https://github.com/davemorrissey/subsampling-scale-image-view), [Fresco](https://github.com/facebook/fresco), [Glide](https://github.com/bumptech/glide), and [Picasso](https://github.com/square/picasso).
 
 ## Demo
